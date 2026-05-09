@@ -1,12 +1,9 @@
 <div align="center">
 
-<!-- ══════════════════════════  HERO BANNER  ══════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a0d,60:00FF88,100:000000&height=280&section=header&text=SYSCALL%20DETECTIVE&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=◈%20Reverse%20Engineer%20·%20Analyze%20·%20Visualize%20·%20Secure%20◈&descSize=17&descAlignY=68&descAlign=50&stroke=00FF88&strokeWidth=1" width="100%"/>
-
-<!-- ══════════════════════════  TYPING ANIMATION  ═════════════════════ -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=750&lines=🔍+See+What+Your+Programs+Are+Really+Doing;🧠+AI-Powered+Linux+Syscall+Intelligence;🛡️+Detect+Malware+Without+Source+Code;📊+Transform+strace+Into+Beautiful+Insights;⚡+From+Binary+to+Forensic+Report+in+Seconds" alt="Typing SVG" />
-</a>
+<div style="background: linear-gradient(135deg, #0a0a0f 0%, #001a0d 50%, #00FF88 100%); padding: 50px 20px; border-radius: 12px; margin-bottom: 20px;">
+  <h1 style="color: #ffffff; font-size: 48px; font-weight: 800; margin: 0;">🔍 SYSCALL DETECTIVE</h1>
+  <p style="color: #e2e8f0; font-size: 18px; margin-top: 10px;">◈ Reverse Engineer · Analyze · Visualize · Secure ◈</p>
+</div>
 
 <br/>
 
@@ -99,7 +96,7 @@ Syscall Detective places a transparent lens at that exact gateway. It captures t
               ║  connect, mmap, ...)
   ╔═══════════▼═══════════════╗
   ║   👁  SYSCALL DETECTIVE   ║  ◄─ intercepts HERE
-  ║    strace kernel hook      ║     100% transparent
+  ║    strace kernel hook     ║     100% transparent
   ╚═══════════╦═══════════════╝
               ║
   ╔═══════════▼═══════════════╗
@@ -181,11 +178,11 @@ ptrace(PTRACE_ATTACH, 1337)    = 0
   ┌──────────────────────┐      ┌──────────────────────┐      ┌─────────────────────┐
   │    INPUT  LAYER      │      │   ANALYSIS  LAYER    │      │    OUTPUT  LAYER    │
   │──────────────────────│      │──────────────────────│      │─────────────────────│
-  │  📁  ELF Upload      │─────▶│  🐳  Docker Sandbox  │─────▶│  📊  Histogram      │
-  │  🔧  Pre-set Progs   │      │  ⚙️   strace Capture  │      │  🕸️   Call Graph     │
-  │  💻  Custom Command  │      │  🧮  Weirdness Score  │      │  🤖  AI Summary     │
-  │  📄  .log File Drop  │      │  🔍  Heuristic Scan  │      │  📧  Email Report   │
-  └──────────────────────┘      └──────────────────────┘      └─────────────────────┘
+  │  📁  ELF Upload      │─────▶│ 🐳  Docker Sandbox  │─────▶│  📊  Histogram    │
+  │  🔧  Pre-set Progs   │      │  ⚙️   strace Capture  │    │  🕸️   Call Graph   │
+  │  💻  Custom Command  │      │  🧮  Weirdness Score  │    │  🤖  AI Summary    │
+  │  📄  .log File Drop  │      │  🔍  Heuristic Scan   │    │  📧  Email Repor   │
+  └──────────────────────┘      └────────────────────────┘    └─────────────────────┘
            │                              │                             │
            └──────────────────────────────┴─────────────────────────────┘
                                           │
@@ -224,8 +221,8 @@ The terminal is **not** a static log viewer. It is a cinematic, dual-tab, syntax
   ┌─────────────────────────────────────────────── TERMINAL ─┐ ● LIVE
   │  $ strace -o trace.log ./update_tool                      │
   │  execve("./update_tool", [...], 0x7fff...)     = 0        │
-  │  mmap(NULL, 8192, PROT_READ|PROT_WRITE, ...)  = 0x7fff   │
-  │  ⚠ SUSPICIOUS  ptrace(PTRACE_ATTACH, 1337)   = 0  🔴    │
+  │  mmap(NULL, 8192, PROT_READ|PROT_WRITE, ...)  = 0x7fff    │
+  │  ⚠ SUSPICIOUS  ptrace(PTRACE_ATTACH, 1337)   = 0  🔴     │
   │  ⚠ SUSPICIOUS  connect(3, {AF_INET, ...})     = 0  🔴    │
   │  write(1, "update complete\n", 16)             = 16       │
   │  exit_group(0)                                 = ?        │
@@ -314,7 +311,7 @@ The Weirdness Score is the crown jewel of Syscall Detective — **zero manual an
 ```
   0 ─────────── 20 ──────────────────── 49 ──────────────────────────── 100
   │             │                       │                                 │
-  │  ✅  SAFE   │    ⚠️  SUSPICIOUS      │     🚨  CRITICAL                │
+  │  ✅  SAFE   │    ⚠️  SUSPICIOUS      │     🚨  CRITICAL              │
   │             │                       │                                 │
   │  Standard   │  Warrants deeper      │  Dashboard turns red.           │
   │  execution  │  manual review        │  Alerts flash. AI confirms.     │
@@ -358,8 +355,8 @@ The Weirdness Score is the crown jewel of Syscall Detective — **zero manual an
   ┌──────────────────────────────────────────────────────────┐
   │  ptrace(PTRACE_ATTACH, 1337)           +25 pts   🔴      │
   │  execve("/tmp/.hidden_sh", [...])      +10 pts   🟠      │
-  │  connect(3, {AF_INET, 93.x.x.x:4444}) +8  pts   🟡      │
-  │  mprotect(0x7f.., PROT_EXEC)          +5  pts   🟡      │
+  │  connect(3, {AF_INET, 93.x.x.x:4444}) +8  pts   🟡       │
+  │  mprotect(0x7f.., PROT_EXEC)          +5  pts   🟡       │
   │  unlink("/tmp/.hidden_sh")             +3  pts   🟢      │
   └──────────────────────────────────────────────────────────┘
 
@@ -592,7 +589,7 @@ Yes. The project runs on any Node.js 18+ environment. Clone the repository, conf
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-ShaikMuzzammil-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-ShaikMuzzammil-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShaikMuzzammil)&nbsp;
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-syscall--detective-00FF88?style=for-the-badge&logo=vercel&logoColor=black)](https://syscall-detective-eight.vercel.app)&nbsp;
 [![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-7C3AED?style=for-the-badge&logo=firefox&logoColor=white)](#)&nbsp;
 [![Contact](https://img.shields.io/badge/Contact-via%20App-0EA5E9?style=for-the-badge&logo=minutemailer&logoColor=white)](https://syscall-detective-eight.vercel.app/#contact)
