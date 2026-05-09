@@ -1,7 +1,5 @@
 <div align="center">
-
 <p style="margin:0 0 8px 0;color:#00ffae;font-size:11px;font-weight:700;letter-spacing:3px;text-shadow:0 0 8px rgba(0,255,174,0.6);">◉ SYSTEM CALL ANALYZER</p>
-
 <div style="background:#0a0a0f;padding:50px 20px;border-radius:12px;margin-bottom:20px;border:1px solid rgba(0,255,136,0.25);box-shadow:0 0 35px rgba(0,255,136,0.12),inset 0 0 25px rgba(0,255,136,0.03);">
   <h1 style="color:#ffffff;font-size:48px;font-weight:800;margin:0;text-shadow:0 0 18px #00FF88,0 0 35px rgba(0,255,136,0.4);">🔍 SYSCALL DETECTIVE</h1>
   <p style="color:#00FF88;font-family:'SF Mono','Fira Code',monospace;font-size:15px;font-weight:700;letter-spacing:4px;text-transform:uppercase;margin:12px 0 0;padding-top:14px;border-top:1px solid rgba(0,255,136,0.5);text-shadow:0 0 8px rgba(0,255,136,0.35);">◈ Reverse Engineer · Analyze · Visualize · Secure ◈</p>
