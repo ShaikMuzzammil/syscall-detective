@@ -580,7 +580,7 @@ Yes. The project runs on any Node.js 18+ environment. Clone the repository, conf
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,50:001a0d,100:000000&height=120&text=Shaik%20Muzzammil&fontSize=38&fontColor=00FF88&animation=twinkling&desc=Full-Stack%20Engineer%20·%20Cybersecurity%20Enthusiast&descSize=15&descAlignY=75&fontAlignY=45" width="560"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,50:001a0d,100:000000&height=120&text=Shaik%20Muzzammil&fontSize=38&fontColor=00FF88&animation=twinkling&desc=Full-Stack%20Engineer%20·%20ML%20Enthusiast&descSize=15&descAlignY=75&fontAlignY=45" width="560"/>
 
 <br/><br/>
 
@@ -591,7 +591,6 @@ Yes. The project runs on any Node.js 18+ environment. Clone the repository, conf
 
 [![GitHub](https://img.shields.io/badge/GitHub-ShaikMuzzammil-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShaikMuzzammil)&nbsp;
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-syscall--detective-00FF88?style=for-the-badge&logo=vercel&logoColor=black)](https://syscall-detective-eight.vercel.app)&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-7C3AED?style=for-the-badge&logo=firefox&logoColor=white)](#)&nbsp;
 [![Contact](https://img.shields.io/badge/Contact-via%20App-0EA5E9?style=for-the-badge&logo=minutemailer&logoColor=white)](https://syscall-detective-eight.vercel.app/#contact)
 
 </div>
